@@ -14,7 +14,7 @@
         "languages": [{
             "id": "urscript",
             "aliases": ["URScript", "urscript"],
-            "extensions": [".script",".urscript"],
+            "extensions": [".urscript"],
             "configuration": "./language-configuration.json"
         }],
         "grammars": [{
