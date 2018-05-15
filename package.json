@@ -22,5 +22,9 @@
             "scopeName": "source.urscript",
             "path": "./syntaxes/urscript.tmLanguage.json"
         }]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rckTom/vscode_URScript.git"
     }
 }
