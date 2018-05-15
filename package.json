@@ -1,0 +1,26 @@
+{
+    "name": "urscript",
+    "displayName": "urscript",
+    "description": "",
+    "version": "0.0.1",
+    "publisher": "rckTom",
+    "engines": {
+        "vscode": "^1.23.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "urscript",
+            "aliases": ["URScript", "urscript"],
+            "extensions": [".script",".urscript"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "urscript",
+            "scopeName": "source.urscript",
+            "path": "./syntaxes/urscript.tmLanguage.json"
+        }]
+    }
+}
