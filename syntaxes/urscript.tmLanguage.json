@@ -25,7 +25,7 @@
 		"functions":{
 			"patterns":[
 			{
-				"match": "(def)",
+				"match": "(def|thread)",
 				"captures": {
 					"1" : {"name": "storage.type.urscript"}
 				}
@@ -46,15 +46,19 @@
 		},
 		"comments": {
 			"patterns":[{
-				"name":"comment.line.number-sign",
+				"name":"comment.line.number-sign.urscript",
 				"match": "#.*$"
+			},
+			{
+				"name": "entity.name.label.urscript",
+				"match": "\\$.*$"
 			}]
 
 		},
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.urscript",
-				"match": "(while|for|return|end|kill|halt)"
+				"match": "(while|for|return|end|kill|halt|run|join|enter_critical|exit_critical)"
 			},
 			{
 				"name" : "keyword.control.conditional.urscript",
