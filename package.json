@@ -1,8 +1,8 @@
 {
     "name": "urscript",
     "displayName": "urscript",
-    "description": "",
-    "version": "0.0.1",
+    "description": "Basic language support for the Universal Robot Script Language",
+    "version": "1.0.0",
     "publisher": "rckTom",
     "engines": {
         "vscode": "^1.23.0"
